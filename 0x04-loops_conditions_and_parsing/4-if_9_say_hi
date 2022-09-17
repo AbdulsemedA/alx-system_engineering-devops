@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# prints Holberton School 10x
+i=0
+n=10
+while ((i < n))
+do
+    echo "Holberton School"
+    if ((i == 8)); then
+	echo "Hi"
+    fi
+    ((i++))
+done
